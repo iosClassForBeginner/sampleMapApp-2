@@ -46,6 +46,9 @@
 - 地図の表示を実装します
 
 ```Swift
+
+    @IBOutlet var myMap: MKMapView!
+    
         override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
