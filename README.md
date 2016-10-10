@@ -78,12 +78,5 @@
         pin.subtitle = "10/15はColab難波にて、地図アプリを作ります"
         myMap.addAnnotation(pin)
     }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
-
-
 }
 ```
