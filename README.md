@@ -33,7 +33,7 @@
 <div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/sampleMapApp/blob/master/Assets/3.gif" /></div>
 
 > 1-3. StoryboardのMapViewを、ViewController.swiftに紐づけます
-<div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/sampleMapApp/blob/master/Assets/3.gif" /></div>
+<div style="text-align:center"><img src ="https://github.com/iosClassForBeginner/sampleMapApp/blob/master/Assets/4.gif" /></div>
 
 #### 2, ViewController.swiftにコード記述
 - 以下コードブロックを記入
