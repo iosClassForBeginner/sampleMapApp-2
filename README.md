@@ -47,9 +47,11 @@
 
 ```Swift
 
+ class ViewController: UIViewController {
+
     @IBOutlet var myMap: MKMapView!
     
-        override func viewDidLoad() {
+    override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         
@@ -76,4 +78,12 @@
         pin.subtitle = "10/15はColab難波にて、地図アプリを作ります"
         myMap.addAnnotation(pin)
     }
+
+    override func didReceiveMemoryWarning() {
+        super.didReceiveMemoryWarning()
+        // Dispose of any resources that can be recreated.
+    }
+
+
+}
 ```
