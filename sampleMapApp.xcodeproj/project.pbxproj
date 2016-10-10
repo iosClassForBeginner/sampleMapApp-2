@@ -15,6 +15,14 @@
 		04DD0A631DAB7449009CBE93 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04DD0A611DAB7449009CBE93 /* LaunchScreen.storyboard */; };
 		04DD0A6E1DAB7449009CBE93 /* sampleMapAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DD0A6D1DAB7449009CBE93 /* sampleMapAppTests.swift */; };
 		04DD0A791DAB7449009CBE93 /* sampleMapAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04DD0A781DAB7449009CBE93 /* sampleMapAppUITests.swift */; };
+		04DD0A871DAB7546009CBE93 /* MapKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 04DD0A861DAB7546009CBE93 /* MapKit.framework */; };
+		04DD0A8A1DAB762A009CBE93 /* compass.png in Resources */ = {isa = PBXBuildFile; fileRef = 04DD0A891DAB762A009CBE93 /* compass.png */; };
+		04DD0A911DAB7F5A009CBE93 /* 0.gif in Resources */ = {isa = PBXBuildFile; fileRef = 04DD0A8B1DAB7F5A009CBE93 /* 0.gif */; };
+		04DD0A921DAB7F5A009CBE93 /* 1.gif in Resources */ = {isa = PBXBuildFile; fileRef = 04DD0A8C1DAB7F5A009CBE93 /* 1.gif */; };
+		04DD0A931DAB7F5A009CBE93 /* 2.gif in Resources */ = {isa = PBXBuildFile; fileRef = 04DD0A8D1DAB7F5A009CBE93 /* 2.gif */; };
+		04DD0A941DAB7F5A009CBE93 /* 3.gif in Resources */ = {isa = PBXBuildFile; fileRef = 04DD0A8E1DAB7F5A009CBE93 /* 3.gif */; };
+		04DD0A951DAB7F5A009CBE93 /* 4.gif in Resources */ = {isa = PBXBuildFile; fileRef = 04DD0A8F1DAB7F5A009CBE93 /* 4.gif */; };
+		04DD0A961DAB7F5A009CBE93 /* sample.gif in Resources */ = {isa = PBXBuildFile; fileRef = 04DD0A901DAB7F5A009CBE93 /* sample.gif */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +57,14 @@
 		04DD0A741DAB7449009CBE93 /* sampleMapAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = sampleMapAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		04DD0A781DAB7449009CBE93 /* sampleMapAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sampleMapAppUITests.swift; sourceTree = "<group>"; };
 		04DD0A7A1DAB7449009CBE93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04DD0A861DAB7546009CBE93 /* MapKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MapKit.framework; path = System/Library/Frameworks/MapKit.framework; sourceTree = SDKROOT; };
+		04DD0A891DAB762A009CBE93 /* compass.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = compass.png; sourceTree = "<group>"; };
+		04DD0A8B1DAB7F5A009CBE93 /* 0.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 0.gif; sourceTree = "<group>"; };
+		04DD0A8C1DAB7F5A009CBE93 /* 1.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 1.gif; sourceTree = "<group>"; };
+		04DD0A8D1DAB7F5A009CBE93 /* 2.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 2.gif; sourceTree = "<group>"; };
+		04DD0A8E1DAB7F5A009CBE93 /* 3.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 3.gif; sourceTree = "<group>"; };
+		04DD0A8F1DAB7F5A009CBE93 /* 4.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = 4.gif; sourceTree = "<group>"; };
+		04DD0A901DAB7F5A009CBE93 /* sample.gif */ = {isa = PBXFileReference; lastKnownFileType = image.gif; path = sample.gif; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +72,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04DD0A871DAB7546009CBE93 /* MapKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -79,6 +96,8 @@
 		04DD0A491DAB7449009CBE93 = {
 			isa = PBXGroup;
 			children = (
+				04DD0A881DAB762A009CBE93 /* Assets */,
+				04DD0A861DAB7546009CBE93 /* MapKit.framework */,
 				04DD0A541DAB7449009CBE93 /* sampleMapApp */,
 				04DD0A6C1DAB7449009CBE93 /* sampleMapAppTests */,
 				04DD0A771DAB7449009CBE93 /* sampleMapAppUITests */,
@@ -126,6 +145,20 @@
 				04DD0A7A1DAB7449009CBE93 /* Info.plist */,
 			);
 			path = sampleMapAppUITests;
+			sourceTree = "<group>";
+		};
+		04DD0A881DAB762A009CBE93 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				04DD0A8B1DAB7F5A009CBE93 /* 0.gif */,
+				04DD0A8C1DAB7F5A009CBE93 /* 1.gif */,
+				04DD0A8D1DAB7F5A009CBE93 /* 2.gif */,
+				04DD0A8E1DAB7F5A009CBE93 /* 3.gif */,
+				04DD0A8F1DAB7F5A009CBE93 /* 4.gif */,
+				04DD0A901DAB7F5A009CBE93 /* sample.gif */,
+				04DD0A891DAB762A009CBE93 /* compass.png */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -232,7 +265,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				04DD0A931DAB7F5A009CBE93 /* 2.gif in Resources */,
+				04DD0A921DAB7F5A009CBE93 /* 1.gif in Resources */,
+				04DD0A911DAB7F5A009CBE93 /* 0.gif in Resources */,
+				04DD0A8A1DAB762A009CBE93 /* compass.png in Resources */,
+				04DD0A961DAB7F5A009CBE93 /* sample.gif in Resources */,
+				04DD0A941DAB7F5A009CBE93 /* 3.gif in Resources */,
 				04DD0A631DAB7449009CBE93 /* LaunchScreen.storyboard in Resources */,
+				04DD0A951DAB7F5A009CBE93 /* 4.gif in Resources */,
 				04DD0A601DAB7449009CBE93 /* Assets.xcassets in Resources */,
 				04DD0A5B1DAB7449009CBE93 /* Main.storyboard in Resources */,
 			);
